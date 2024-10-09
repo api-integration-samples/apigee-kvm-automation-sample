@@ -1,0 +1,14 @@
+<APIProxy revision="1" name="KvmTest-v1">
+    <DisplayName></DisplayName>
+    <Description>A simple proxy to use a KVM entry.</Description>
+    <CreatedAt>1728448639478</CreatedAt>
+    <LastModifiedAt>1728449183184</LastModifiedAt>
+    <BasePaths>/v1/kvmtest</BasePaths>
+    <Policies>
+        <Policy>KVM-GetEntry</Policy>
+        <Policy>AM-SetResponse</Policy>
+    </Policies>
+    <ProxyEndpoints>
+        <ProxyEndpoint>default</ProxyEndpoint>
+    </ProxyEndpoints>
+</APIProxy>
