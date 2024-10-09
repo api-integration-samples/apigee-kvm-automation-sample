@@ -7,7 +7,7 @@ Resources created in this sample:
 - An Apigee proxy is deployed that retrieves that KVM value and returns it in an API call.
 
 ## Prerequisites
-To run this sample, you need a **Google Cloud project** with any version of **Apigee X** provisioned, and at least the **API Admin (V2)** user role assigned to read/write KVMs. You will also need the **gcloud** tool installed, which it is by default in [Google Cloud Shell](https://shell.cloud.google.com)
+To run this sample, you need a **Google Cloud project** with any version of **Apigee X** provisioned, and at least the **API Admin (V2)** user role assigned to your user to read/write KVMs. You will also need the **gcloud** tool installed, which it is by default in [Google Cloud Shell](https://shell.cloud.google.com)
 
 ## Instructions
 
