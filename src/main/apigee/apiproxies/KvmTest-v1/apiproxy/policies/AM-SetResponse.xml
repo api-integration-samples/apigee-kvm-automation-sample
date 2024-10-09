@@ -3,7 +3,7 @@
   <DisplayName>AM-SetResponse</DisplayName>
   <Properties/>
   <Set>
-    <Payload contentType="application/text">{testKvmValue}</Payload>
+    <Payload contentType="text/html">{testKvmValue}</Payload>
   </Set>
   <IgnoreUnresolvedVariables>true</IgnoreUnresolvedVariables>
   <AssignTo createNew="false" transport="http" type="request"/>

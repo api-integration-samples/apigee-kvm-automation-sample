@@ -3,10 +3,10 @@
   <DisplayName>KVM-GetEntry</DisplayName>
   <Properties/>
   <ExclusiveCache>false</ExclusiveCache>
-  <ExpiryTimeInSecs>300</ExpiryTimeInSecs>
+  <ExpiryTimeInSecs>30</ExpiryTimeInSecs>
   <Get assignTo="testKvmValue" index="1">
     <Key>
-      <Parameter>"test-entry"</Parameter>
+      <Parameter>test-entry</Parameter>
     </Key>
   </Get>
   <Scope>environment</Scope>
