@@ -1,5 +1,10 @@
 # Apigee KVM Automation Sample
-This sample shows how to use automation to manage a simple KVM (KeyValueMap) in Apigee X to store and retrieve any configuration or secret values. This sample can be run very easily in [Google Cloud Shell](https://shell.cloud.google.com), and use a free Apigee X instance for testing.
+This sample shows how to use automation to manage a simple KVM (KeyValueMap) in Apigee X to store and retrieve configuration or secret values. This sample can be run very easily in [Google Cloud Shell](https://shell.cloud.google.com), and use a free Apigee X instance for testing.
+
+Resources created in this sample:
+- An Apigee KVM is created for storing secrets.
+- A KVM entry is created to store a string value.
+- An Apigee proxy is deployed that retrieves that KVM value and returns it in an API call.
 
 ## Prerequisites
 To run this sample, you need a **Google Cloud project** with any version of **Apigee X** provisioned, and at least the **API Admin (V2)** user role assigned to read/write KVMs. You will also need the **gcloud** tool installed, which it is by default in [Google Cloud Shell](https://shell.cloud.google.com)
